@@ -1,14 +1,15 @@
 
-// BASIC JAVASCRIPT QUIZ
-//Questions Created by Cohort 221 Students April 2022
+/*BASIC JAVASCRIPT QUIZ
+Questions Created by Cohort 221 Students April 2022
 
-//Instructions
-// All of the questions below are wrapped in functions
-// Each section of questions is wrapped in a function that is named for the topic the questions will be on
+Instructions
+All of the questions below are wrapped in functions
+Each section of questions is wrapped in a function that is named for the topic the questions will be on
 
-// Inside each of the section functions all of the return values of the questions is going to be logged to the console.
-//This will allow you to compare the logged answers with the answer sheet of what you should return
-//The answer sheet will contain solutions and some example code for how you could have solved the question.
+Inside each of the section functions all of the return values of the questions are going to be logged to the console.
+This will allow you to compare the logged answers with the answer sheet of what you should return
+The answer sheet will contain solutions and some example code for how you could have solved the question.
+*/
 
 function variablesQuiz(){
     
@@ -52,38 +53,90 @@ function variablesQuiz(){
     /* Question #3 - Part 2
         Fix code below this comment so it does not result in error
         Note - there are multiple ways to fix this error
-        */
+    */
     
-   
-
-        
         return reasonForError;
-        
     };
 
     // function variablesQuizQ4(){
 
         
     // };
+    console.log("The answer to variablesQuizQ1 is currently: ", variablesQuizQ1());
+    console.log("The answer to variablesQuizQ2 is currently: ", variablesQuizQ2());
+    console.log("The answer to variablesQuizQ3 is currently: ", variablesQuizQ3());
+    // console.log("The answer to variablesQuizQ4 is currently: ", variablesQuizQ4());
+};//End of Variables Quiz Section
 
 
-   
-    
-    
-   
-    
-   
-    
-  
-    console.log("The answer to variablesQuizQ1 is currently: ", variablesQuizQ1())
-    console.log("The answer to variablesQuizQ2 is currently: ", variablesQuizQ2())
-    console.log("The answer to variablesQuizQ3 is currently: ", variablesQuizQ3())
-    // console.log("The answer to variablesQuizQ4 is currently: ", variablesQuizQ4())
-    
-}//End of Variables Quiz Section
+function compoundAssignmentOperatorsQuiz(){
+
+/* Compound Assignment Operators Questions - Bonnie So's group
+
+let a = 7
+let b = 4
+let c =25
+
+
+What is one way to write the assignment below:
+	
+	A = a + 12
+
+
+What is the output for c  /= 5?
+
+
+Use compound assignment with augmented multiplication to make the output of theVar equal 150.
+	
+	Let theVar = 30
+
+
+Push the values 2, 4, 6, 8 onto myForLoop using a for loop.
 
 
 
+In the function myTest, show if a < 15, the output will be “Less than 15, if not “More than 15.
+
+
+
+*/
+
+
+};
+
+function stringsQuiz(){
+    /*Strings Quiz - Christian Cano's Group
+
+1. True or False: 
+
+    JavaScript automatically converts all object keys to strings.
+
+    Answer:
+
+2. What is the value of: “Bay Valley Tech”[2] ?
+    
+    Answer:
+
+3. Turn this phrase into a string:
+
+    John said, “I love learning to code”.
+
+    Answer:
+
+
+
+4. Fill in the blank to get the length of firstName.
+
+    const firstName = ‘Daniel’;
+    let val;
+    val = ___________
+    console.log(val)
+
+    Answer: 
+5. Fill in the blank by getting the substring ‘Brad’ from lastName.
+*/
+
+};
 
 function comparisonOperatorsQuiz(){
     //This section of the quiz will review comparison operators
@@ -144,11 +197,7 @@ function comparisonOperatorsQuiz(){
     console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ3())
     console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ4())
 
-}//End of section
-
-
-
-/* Comparison and Equality operators - Anton Igudesman's group
+    /* Comparison and Equality operators - Anton Igudesman's group
 
 Choose the correct comparison operator to alert true, when x is equal to y.
 	A.	x = 10;
@@ -205,76 +254,82 @@ return collection;
 updateBugs(bugSpecimens, 2471, 'bugName', 'scratchydoodle');
 updateBugs(bugSpecimens, 2471, 'descriptiveTerms', 'voracious');
 console.log(bugSpecimens);
-
-
-
-
-
 */
 
+};//End of section
 
-/* Compound Assignment Operators Questions - Bonnie So's group
+       
+function functionsQuizWY(){
+    // Functions Quiz Written by Wincy Yu
 
-let a = 7
-let b = 4
-let c =25
+    function functionsQuestion1(){
+        //How do you write an if statement to say "if i is not equal to 5"?
+        //return "your answer here" and comment this back in
+        //see answers document for answer
+    };
+
+    function functionsQuestion2(){
+        //Write a Javascript array that contains the colors in order: red, green blue. Name the array "colors".
+        //return "your answer here" and comment this back in
+        //see answers document for answer
+    };
+
+    function functionsQuestion3(){
+        //Write a function that rounds the number 6.75 to the nearest integer.
+        //return "your answer here" and comment this back in
+        //see answers document for answer
+    };
+
+    function functionsQuestion4(){
+        //Write a function that assigns the value 8 to variable a. 
+        //return "your answer here" and comment this back in
+        //see answers document for answer
+    };
+
+    console.log("The answer to functionsQuestion1 is: ", functionsQuestion1());
+    console.log("The answer to functionsQuestion2 is: ", functionsQuestion2());
+    console.log("The answer to functionsQuestion3 is: ", functionsQuestion3());
+    console.log("The answer to functionsQuestion4 is: ", functionsQuestion4());
+
+}
 
 
-What is one way to write the assignment below:
-	
-	A = a + 12
+function functionsQuizWYAnswers(){
 
-
-What is the output for c  /= 5?
-
-
-Use compound assignment with augmented multiplication to make the output of theVar equal 150.
-	
-	Let theVar = 30
-
-
-Push the values 2, 4, 6, 8 onto myForLoop using a for loop.
-
-
-
-In the function myTest, show if a < 15, the output will be “Less than 15, if not “More than 15.
-
-
-
-*/
-
-
-
-
-/*Strings Quiz - Christian Cano's Group
-
-1. True or False: 
-
-    JavaScript automatically converts all object keys to strings.
-
-    Answer:
-
-2. What is the value of: “Bay Valley Tech”[2] ?
     
-    Answer:
+    /*
+    How do you write an If statement to execute some code "if i is not equal to 5?""
+    if(i not = 5)
+    if(i!=5)
+    if i=!5 then
+    if i not ==5
+        
+    What is the correct way to write a Javascript array?
+    var colors=[“red”, “green”, “blue”]
+    var colors = 1: red, 2: green, 3: blue
+    Var colors = (1: “red”, 2: “green”, 3: “blue)
+    Var colors = “red”, “green”, “blue”
+    
+    How do you round the number 6.75 to the nearest integer?
+    Math.round(6.75)
+    round(6.75)
+    Math.rnd(6.25)
+    rnd(6.75)
+    
+    Which operator is used to assign a value to a variable?
+    =
+    ==
+    ===
+    ====
+    
+    */
+   
+};
+   
 
-3. Turn this phrase into a string:
+function arraysQuiz(){
+      /*
 
-    John said, “I love learning to code”.
-
-    Answer:
-
-
-
-4. Fill in the blank to get the length of firstName.
-
-    const firstName = ‘Daniel’;
-    let val;
-    val = ___________
-    console.log(val)
-
-    Answer: 
-5. Fill in the blank by getting the substring ‘Brad’ from lastName.
 
 Ethan/Joe Arrays Quiz Section
 
@@ -326,109 +381,8 @@ function arraysQuizQuestion1(){
     }
 arraysQuizQuestion3();
 };
-*/
-
-// Gustavo Hernadez's Questions - variables
-
-function arraysQuiz(){
-    function arraysQuizQuestion1(){
-        
-        //What are all the data types supported by javascript?
-        
-    function arrayQuizQuestion2(){  
-        //answer : Undefined, Null, Boolean, String, Symbol, Number, Object
-        
-        //What are the three ways you may declare a variable?
-        //answer: Var, let, const
-        
-        //Where does javascript go in HTML?
-        //answer: <script>
-        
-        //What is the purpose of a for loop in javascript?
-        //A JavaScript for loop executes a block of code as long as a specified condition is true.
-        
-        //
-    }
-}
-        
-        
-
-        
-        // Functions Quiz-- Wincy Yu
-        
-function functionsQuizWY(){
-
-    function functionsQuestion1(){
-        //How do you write an if statement to say "if i is not equal to 5"?
-        //return "your answer here" and comment this back in
-        //see answers document for answer
-    };
-
-    function functionsQuestion2(){
-        //Write a Javascript array that contains the colors in order: red, green blue. Name the array "colors".
-        //return "your answer here" and comment this back in
-        //see answers document for answer
-    };
-
-    function functionsQuestion3(){
-        //Write a function that rounds the number 6.75 to the nearest integer.
-        //return "your answer here" and comment this back in
-        //see answers document for answer
-    };
-
-    function functionsQuestion4(){
-        //Write a function that assigns the value 8 to variable a. 
-        //return "your answer here" and comment this back in
-        //see answers document for answer
-    };
-
-    console.log("The answer to question 1 is: ", functionsQuestion1());
-    console.log("The answer to question 2 is: ", functionsQuestion2());
-    console.log("The answer to question 3 is: ", functionsQuestion3());
-    console.log("The answer to question 4 is: ", functionsQuestion4());
-
-}
-
-functionsQuizWY();
-
-
-
-
-/*
-How do you write an If statement to execute some code "if i is not equal to 5?""
-        if(i not = 5)
-        if(i!=5)
-        if i=!5 then
-        if i not ==5
-        
- What is the correct way to write a Javascript array?
-        var colors=[“red”, “green”, “blue”]
-        var colors = 1: red, 2: green, 3: blue
-        Var colors = (1: “red”, 2: “green”, 3: “blue)
-        Var colors = “red”, “green”, “blue”
-        
-How do you round the number 6.75 to the nearest integer?
-    Math.round(6.75)
-    round(6.75)
-    Math.rnd(6.25)
-    rnd(6.75)
-
-Which operator is used to assign a value to a variable?
-    =
-    ==
-    ===
-    ====
 
 */
-
-
-
-
-
-
-
-
-function arraysQuiz(){
 
     
     function arraysQuizQuestion1(){
@@ -472,14 +426,37 @@ function arraysQuiz(){
     arraysQuizQuestion2();
     
 };
+
+/*
+Gustavo Hernadez's Questions - variables
+
+
+        What are all the data types supported by javascript?
+        answer : Undefined, Null, Boolean, String, Symbol, Number, Object
+        
+        What are the three ways you may declare a variable?
+        answer: Var, let, const
+        
+        Where does javascript go in HTML?
+        answer: <script>
+        
+        What is the purpose of a for loop in javascript?
+        A JavaScript for loop executes a block of code as long as a specified condition is true.
+        
+    */
     
     
     
     
     
     
-    
-    // Keep this at the bottom of the page
-    // Run all Quiz Functions...
-    
-comparisonOperatorsQuiz()
+// Keep this at the bottom of the page
+// The Function calls at the bottom will run all of the functions
+// comment out specific function calls if you have not finished the quiz or don't want to see the answers from a previous quiz function
+
+variablesQuiz();
+compoundAssignmentOperatorsQuiz();
+stringsQuiz();
+comparisonOperatorsQuiz();
+functionsQuizWY();
+arraysQuiz();
