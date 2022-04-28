@@ -10,6 +10,12 @@ Inside each of the section functions all of the return values of the questions a
 This will allow you to compare the logged answers with the answer sheet of what you should return
 The answer sheet will contain solutions and some example code for how you could have solved the question.
 */
+//Thoughts...
+//It would be much more efficient to make this with OOP principles at least in some amount to avoid lots of rework...
+//More could be done to make this a more fancy CLI quiz app...
+//We need to write and integrate automated tests so that we can automatically test submitted answers (like on free code camp)
+// we could make more different types of questions and quizes to help students for vocabulary, basic terms, operators, and simple syntax
+
 
 function variablesQuiz(){
     
@@ -21,8 +27,9 @@ function variablesQuiz(){
 
     //question #1 part1 Use the var keyword to declare a variable called domain. 
     //question #1 part2 Next assign a number to your new variable.//
-
-        return domain
+        
+    // uncomment the return below
+    // return domain
     };
     function variablesQuizQ2(){
     //question #2 Assign the contents of variable X to Z//
@@ -192,10 +199,10 @@ function comparisonOperatorsQuiz(){
         return bugSpecimens;
     }
      
-    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ1())
-    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ2())
-    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ3())
-    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ4())
+    console.log("The answer to comparisonOperatorsQuizQ1 is currently: ", comparisonOperatorsQuizQ1())
+    console.log("The answer to comparisonOperatorsQuizQ2 is currently: ", comparisonOperatorsQuizQ2())
+    console.log("The answer to comparisonOperatorsQuizQ3 is currently: ", comparisonOperatorsQuizQ3())
+    console.log("The answer to comparisonOperatorsQuizQ4 is currently: ", comparisonOperatorsQuizQ4())
 
     /* Comparison and Equality operators - Anton Igudesman's group
 
