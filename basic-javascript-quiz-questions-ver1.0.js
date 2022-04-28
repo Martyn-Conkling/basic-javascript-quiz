@@ -1,47 +1,115 @@
 
-function arraysQuizExample(){
+// BASIC JAVASCRIPT QUIZ
+//Questions Created by Cohort 221 Students April 2022
 
+//Instructions
+// All of the questions below are wrapped in functions
+// Each section of questions is wrapped in a function that is named for the topic the questions will be on
 
-    function arraysQuiz1Question1(){
-        // Write the prompt for the question
-        // Have them complete some code which will result in console.logging something
+// Inside each of the section functions all of the return values of the questions is going to be logged to the console.
+//This will allow you to compare the logged answers with the answer sheet of what you should return
+//The answer sheet will contain solutions and some example code for how you could have solved the question.
 
-        // either have a return statement or a console.log for the student to be able to have the answer returned to the console
-    }
+function variablesQuiz(){
+    
+     /* This Section of the Quiz will review variables in JavaScript (including ES6 updates)
+        These Quiz Questions were written by 
+        Brian and Jose */ 
 
-    function arraysQuiz1Question2(){
+    function variablesQuizQ1(){
 
+    //question #1 part1 Use the var keyword to declare a variable called domain. 
+    //question #1 part2 Next assign a number to your new variable.//
 
-
-      //  Choose the correct comparison operator to alert true, when x is equal to y.
-      let x = 10;
-      let y = "10";
-      // write a comparison of x and y that will return the value of true.
-      //Make sure you comment the return statement back in
-      // Bonus, can you think of multiple ways of writing expressions that will evaluate to true?
-        // return (x !== y);
-        // return (x == y)
-     
-	
-
+        return domain
+    };
+    function variablesQuizQ2(){
+    //question #2 Assign the contents of variable X to Z//
+    var x;
+    x = 7;
+    var z;
+    //type answer below this line//
+    
+    //type answer above this line//
+    
+    return z;
+        
     };
 
+    function variablesQuizQ3(){
 
-    console.log("The Answer to Question 1 is: ", arraysQuiz1Question1());
-    console.log("The Answer to Question 2 is: ", arraysQuiz1Question2());
+    /* Question #3 - Part 1
+    The 2 lines of code are commented out because they are currently throwing an error.
+    Uncomment the two lines of code below the question prompt and read them.
+    Why does the code result in an error?
+    Write the reason for this as a string which is being assigned to the variable reasonForError. */
+
+    // let toyName = "transformer";
+    // let toyName = "lets roll!";
+
+    let reasonForError = '';
+
+    /* Question #3 - Part 2
+        Fix code below this comment so it does not result in error
+        Note - there are multiple ways to fix this error
+        */
+    
+   
+
+        
+        return reasonForError;
+        
+    };
+
+    // function variablesQuizQ4(){
+
+        
+    // };
 
 
-}
+   
+    
+    
+   
+    
+   
+    
+  
+    console.log("The answer to variablesQuizQ1 is currently: ", variablesQuizQ1())
+    console.log("The answer to variablesQuizQ2 is currently: ", variablesQuizQ2())
+    console.log("The answer to variablesQuizQ3 is currently: ", variablesQuizQ3())
+    // console.log("The answer to variablesQuizQ4 is currently: ", variablesQuizQ4())
+    
+}//End of Variables Quiz Section
 
-function equalityOperatorsQuiz(){
 
-    function equalityOperatorsQuizQuestion1(){
+
+
+function comparisonOperatorsQuiz(){
+    //This section of the quiz will review comparison operators
+    //Quiz Questions Created by
+    //Anton Igudesman
+    //group member 2
+    //group member 3
+    //edited by Martyn Conkling
+
+    function comparisonOperatorsQuizQ1(){
             
 
     };
 
-    // Question 4
-    function comparisonOperatorsQuizQuestion4() {
+    function comparisonOperatorsQuizQ2(){
+            
+
+    };
+
+    function comparisonOperatorsQuizQ3(){
+            
+
+    };
+
+    // this is more of an objects questions, should be put in a different section
+    function comparisonOperatorsQuizQ4() {
         // Using the following Object:
       const  bugSpecimens = {
              2291: {
@@ -71,10 +139,14 @@ function equalityOperatorsQuiz(){
         return bugSpecimens;
     }
      
-}
+    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ1())
+    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ2())
+    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ3())
+    console.log("The answer to Question 1 is currently: ", comparisonOperatorsQuizQ4())
 
-    equalityOperatorsQuizQuestion1();
-}
+}//End of section
+
+
 
 /* Comparison and Equality operators - Anton Igudesman's group
 
@@ -399,7 +471,7 @@ function arraysQuiz(){
     arraysQuizQuestion1();
     arraysQuizQuestion2();
     
-}
+};
     
     
     
@@ -409,33 +481,5 @@ function arraysQuiz(){
     
     // Keep this at the bottom of the page
     // Run all Quiz Functions...
-    arraysQuiz();
-
-function variablesQuiz(){
-
-    /*Brian and Jose Quiz Question - variables*/   
     
-    //question #1 part1 Use the var keyword to declare a variable called mydomain. 
-    //question #1 part2 Next assign a number to your new variable.//
-    //type answer below this line//
-    
-    //type answer above this line//
-    
-    //question #2 Assign the contents of variable X to Z//
-    var x;
-    x = 7;
-    var z;
-    //type answer below this line//
-    
-    //type answer above this line//
-    
-    //question #3 Why does the code result in an error?//
-    let toyName = "transformer";
-    let toyName = "lets roll!";
-    //Fix code below this line so it does not result in error//
-    
-    //Fix code above this line so it does not result in error//
-    
-    }
-    
-} 
+comparisonOperatorsQuiz()
