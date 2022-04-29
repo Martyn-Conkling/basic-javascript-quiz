@@ -244,7 +244,7 @@ Ans-
              descriptiveTerms: ["stinky", "disgusting"]
               }
           }
- Make up a scientific bug name for specimen 2471 
+Make up a scientific bug name for specimen 2471 and add it into the bugSpecimens object in the correct place.  (hint: bugName)
 Complete the function that lets you do the following    
 -Add a 3rd descriptiveTerm for specimen 2471
 -Add the bugName cat as a string for specimen 2471
