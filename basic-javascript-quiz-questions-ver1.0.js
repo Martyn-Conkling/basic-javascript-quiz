@@ -142,7 +142,7 @@ function stringsQuiz(){
     Answer: 
 
 5. Fill in the blank by getting the substring ‘Brad’ from lastName. (hint: use name.lastName)
-    const name = {firstName: Phillip, lastName: Bradford}
+    const name = {firstName: "Phillip", lastName: "Bradford"}
 */
 
 };
