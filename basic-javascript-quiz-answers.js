@@ -1,5 +1,5 @@
 
-//testing
+
 /*
 Compound Assignment Operators Answers - Bonnie So's group
 
@@ -36,7 +36,7 @@ Answer 1: True
 Answer 2:  ‘y’
 Answer 3:  "John said, \”I love learning to code\”.”
 Answer 4: val = firstName.length;
-Answer 5: val = lastName.substring(0, 4);
+Answer 5: val = name.lastName.substring(0, 4);
 
 
 */
